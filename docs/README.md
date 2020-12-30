@@ -35,6 +35,8 @@ import MySvg from './route/to/svg/file.svg'
 
 ```
 
+The code in this template emits two events especially for Vtex developers: `reactReady` and `vtexjsReady`. This way you dont have to write custom code everytime you have to wait for those libraries to finish loading. Just listen for the event `$(window).on('vtexjsReady', function(){})` and code away!
+
 ## Configuration
 
 1.  Using your terminal and the [VTEX IO Toolbelt](https://vtex.io/docs/recipes/development/vtex-io-cli-installment-and-command-reference), log into the desired account;
