@@ -1,0 +1,15 @@
+@import './elements/header', './elements/footer', './elements/cart', './elements/profile', './elements/shipping',
+  './elements/payment', './elements/custom-content', './elements/cart-summary';
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #000 !important;
+  @media (max-width: 979px) {
+    &.body-cart {
+      padding-bottom: 0;
+    }
+  }
+}
