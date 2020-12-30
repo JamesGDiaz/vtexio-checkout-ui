@@ -11,7 +11,7 @@ Modify the files:
 
 - `src/checkout6-custom.js`
 - `src/checkout-instore-custom.js`
-- `src/checkout-confirmation-custom.js
+- `src/checkout-confirmation-custom.js`
 
 to add custom scripts to the checkout template.
 
