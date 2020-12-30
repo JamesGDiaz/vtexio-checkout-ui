@@ -24,7 +24,16 @@ And modify the files:
 to customize the appereance of the checkout page using [SASS](https://sass-lang.com/documentation/syntax) to build CSS files.
 
 Additionally, you can load `.svg` files to the scripts by using ES6-style imports
-`import MySvgFile from './route/to/svg/file.svg`
+```javascript
+import MySvg from './route/to/svg/file.svg'
+.
+.
+.
+<div>
+	</MySvg>
+</div>
+
+```
 
 ## Configuration
 
